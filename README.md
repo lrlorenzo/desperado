@@ -21,6 +21,7 @@ Navigate to the folder where you extracted the files.
 ### 3. Create a virtual environment
 ```bash
 python -m venv venv
+```
 
 ---
 
@@ -28,21 +29,24 @@ python -m venv venv
 - **Windows**
 ```bash
 venv\scripts\activate
+```
 
 - **Mac/Linux**
 ```bash
 source venv/bin/activate
+```
 
 ---
 
 ### 5. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 6. Run desperado
 ```bash
 python main.py --template=TemplateA.docx
-
+```
 
 ## ✅ Notes
 - Make sure you have **Python installed (3.10+)**.
