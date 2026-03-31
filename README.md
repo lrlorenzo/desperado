@@ -43,7 +43,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 6. Run desperado
+### 6. Set up environment variables
+Copy the example file and create your own `.env` file:
+- **Windows**
+```bash
+cp .env.example .env
+```
+
+- **Mac/Linux**
+```bash
+cp .env.example .env
+```
+
+### 7. Run desperado
 ```bash
 python main.py --template=TemplateA.docx
 ```
@@ -52,5 +64,4 @@ python main.py --template=TemplateA.docx
 - Make sure you have **Python installed (3.10+)**.
 - Place your template file (e.g., 'TemplateA.docx') in the project folder.
 - Place your input file (e.g., 'Sample.xlsx') in the project folder.
-- You can modify the folders in the .env file.
 - You can customize the template to generate your own resume.
